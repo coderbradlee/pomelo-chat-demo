@@ -11,9 +11,7 @@
 ## 使用方式
 
 > * 1. 启动服务端 cd 到 pomelo-chat-demo\chat-server\game-server 下执行
-> 
 > ``` bash
 >   pomelo start
 > ```
-
 > * 2. 直接运行 Pomelo-NativeSocket 项目启动或者直接运行编译好的exe启动客户端。此时就可以进行聊天了。
