@@ -14,4 +14,5 @@
 > ``` bash
 >   pomelo start
 > ```
-> * 2. 直接运行 Pomelo-NativeSocket 项目启动或者直接运行编译好的exe启动客户端。此时就可以进行聊天了。
+> * 2. 直接运行 Pomelo-NativeSocket 项目启动或者直接运行编译好的exe启动客户端。
+> * 3. 输入用户名和频道号，连接，然后就可以进行聊天了。
