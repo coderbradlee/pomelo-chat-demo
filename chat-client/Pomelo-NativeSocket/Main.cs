@@ -103,6 +103,10 @@ namespace Pomelo_NativeSocket {
             }
         }
 
+        /// <summary>
+        /// 连接connector服务器
+        /// </summary>
+        /// <param name="result"></param>
         void LoginConnectorServer(JsonObject result) {
 
             string host = (string)result["host"];
@@ -121,6 +125,11 @@ namespace Pomelo_NativeSocket {
             });
         }
 
+        /// <summary>
+        /// 加入频道
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="channel"></param>
         void JoinChannel(string userName, string channel) {
             JsonObject userMessage = new JsonObject();
             userMessage.Add("username", userName);
@@ -201,6 +210,10 @@ namespace Pomelo_NativeSocket {
             }
         }
 
+
+        /// <summary>
+        /// 发送消息
+        /// </summary>
         void sendMessage() {
             //string inputField = tb_send.Text;
             //string reg = "^@.*?:";
@@ -247,6 +260,11 @@ namespace Pomelo_NativeSocket {
             tb_send.Clear();
         }
 
+        /// <summary>
+        /// 发送聊天请求
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="content"></param>
         void chat(string target, string content) {
             string userName = tb_name.Text;
             JsonObject message = new JsonObject();

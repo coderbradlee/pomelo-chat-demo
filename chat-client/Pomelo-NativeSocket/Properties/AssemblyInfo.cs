@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Pomelo-NativeSocket")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("github")]
 [assembly: AssemblyProduct("Pomelo-NativeSocket")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
+[assembly: AssemblyCopyright("yulijun")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
