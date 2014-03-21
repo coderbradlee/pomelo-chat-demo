@@ -26,6 +26,8 @@ namespace Pomelo_NativeSocket {
             InitializeComponent();
             AppendLog("Main Thread:" + Thread.CurrentThread.ManagedThreadId);
             _userList.Add("all");
+            RefreshUserList();
+            cb_users.SelectedIndex = 0;
         }
 
         private void btn_send_Click(object sender, EventArgs e) {
@@ -55,8 +57,8 @@ namespace Pomelo_NativeSocket {
                 this.Invoke(d);
             }
             else {
-                cb_users.DataSource = _userList;
-                cb_users.Refresh();
+                cb_users.Items.Clear();
+                cb_users.Items.AddRange(_userList.ToArray());
             }
         }
 
