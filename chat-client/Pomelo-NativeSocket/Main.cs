@@ -230,7 +230,7 @@ namespace Pomelo_NativeSocket {
 
             string inputField = tb_send.Text;
 
-            if ("all".Equals(cb_users.SelectedItem.ToString())) {
+            if ("all".Equals(cb_users.Text)) {
                 chat("*", inputField);
             }
             else {
@@ -258,7 +258,7 @@ namespace Pomelo_NativeSocket {
             //chat("*", inputField);
 
 
-            chat(cb_users.SelectedItem.ToString(), tb_send.Text);
+            chat(cb_users.Text, tb_send.Text);
             tb_send.Clear();
         }
 
