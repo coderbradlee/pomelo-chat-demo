@@ -44,6 +44,7 @@
             // 
             // btn_send
             // 
+            this.btn_send.Enabled = false;
             this.btn_send.Location = new System.Drawing.Point(17, 196);
             this.btn_send.Name = "btn_send";
             this.btn_send.Size = new System.Drawing.Size(140, 28);
@@ -73,7 +74,7 @@
             this.tb_info.Name = "tb_info";
             this.tb_info.ReadOnly = true;
             this.tb_info.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tb_info.Size = new System.Drawing.Size(722, 590);
+            this.tb_info.Size = new System.Drawing.Size(429, 366);
             this.tb_info.TabIndex = 0;
             this.tb_info.TabStop = false;
             this.tb_info.WordWrap = false;
@@ -104,7 +105,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(905, 596);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(612, 372);
             this.tableLayoutPanel1.TabIndex = 100001;
             // 
             // panel1
@@ -112,9 +113,9 @@
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(731, 3);
+            this.panel1.Location = new System.Drawing.Point(438, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(171, 590);
+            this.panel1.Size = new System.Drawing.Size(171, 366);
             this.panel1.TabIndex = 100001;
             // 
             // groupBox2
@@ -123,7 +124,7 @@
             this.groupBox2.Controls.Add(this.btn_send);
             this.groupBox2.Controls.Add(this.tb_send);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(0, 360);
+            this.groupBox2.Location = new System.Drawing.Point(0, 136);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(171, 230);
             this.groupBox2.TabIndex = 100004;
@@ -140,6 +141,7 @@
             // 
             // tb_send
             // 
+            this.tb_send.ImeMode = System.Windows.Forms.ImeMode.On;
             this.tb_send.Location = new System.Drawing.Point(17, 55);
             this.tb_send.Multiline = true;
             this.tb_send.Name = "tb_send";
@@ -183,7 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 596);
+            this.ClientSize = new System.Drawing.Size(612, 372);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Main";
             this.Text = "Pomelo-Chat-Socket";
