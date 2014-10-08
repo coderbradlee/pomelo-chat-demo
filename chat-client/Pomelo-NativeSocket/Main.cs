@@ -31,6 +31,12 @@ namespace Pomelo_NativeSocket
             _userList.Add("all");
             RefreshUserList();
             cb_users.SelectedIndex = 0;
+
+            Transporter.OnSocketClosedEvent += (message) =>
+            {
+                AppendLog(message);
+                SetEnabled(true);
+            };
         }
 
         private void btn_send_Click(object sender, EventArgs e)
