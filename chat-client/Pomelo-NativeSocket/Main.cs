@@ -32,11 +32,11 @@ namespace Pomelo_NativeSocket
             RefreshUserList();
             cb_users.SelectedIndex = 0;
 
-            Transporter.OnSocketClosedEvent += (message) =>
-            {
-                AppendLog(message);
-                SetEnabled(true);
-            };
+            //Transporter.OnSocketClosedEvent += (message) =>
+            //{
+            //    AppendLog(message);
+            //    SetEnabled(true);
+            //};
         }
 
         private void btn_send_Click(object sender, EventArgs e)
