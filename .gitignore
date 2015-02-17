@@ -5,13 +5,10 @@
 *.suo
 *.user
 *.log
-*.tlog
-*.pdb
 
 # directories
 chat-client/pomelo-dotnetClient/obj/
 chat-client/pomelo-dotnetClient/bin/
+chat-client/Pomelo-NativeSocket/obj/
 chat-client/Pomelo-NativeSocket/bin/
-obj/
-test/chat-server/logs/
 chat-server/game-server/logs/
